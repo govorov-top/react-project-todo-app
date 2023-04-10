@@ -1,0 +1,15 @@
+.btn {
+	height: 50px;
+	cursor: pointer;
+	background-color: beige;
+	font-size: 1.5rem;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 5px;
+	&:not(:first-of-type){
+		margin-left: 20px;
+	}
+	&:hover {
+		background-color: rgb(240, 240, 155);
+	}
+}
